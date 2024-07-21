@@ -3,7 +3,7 @@ variable "hub" {
   type        = map(any)
   default = {
     east = {
-      location = "East US"
+      location = "usgovvirginia"
       name     = "hub-east"
       ipspace  = "10.0.0.0/23"
       tags = {
